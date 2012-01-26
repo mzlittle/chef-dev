@@ -9,11 +9,7 @@
 
 log "installing tmux"
 
-package "tmux" do
+apt_package "tmux" do
   action :install
 end
 
-log "create a config file for tmux to map C-j"
-bash "install_something" do
-     echo "set-option -g prefix C-j" > /root/.tmux.conf
-end
