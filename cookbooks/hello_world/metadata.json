@@ -16,7 +16,8 @@
   "recommendations": {
   },
   "recipes": {
-    "hello_world::default": "Prints to the audit entry"
+    "hello_world::default": "Prints to the audit entry",
+    "hello_world::sw_install": "installing software for my new machine"
   },
   "groupings": {
   },
