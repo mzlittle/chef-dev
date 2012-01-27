@@ -29,10 +29,13 @@ elsif node[:platform] == 'ubuntu'
   log "This is an ubuntu box"
 end
 
+
 log "See the content of node[:platform] is #{node[:platform]}"
 
+log "This is the value for whatever (#{node[:whatever]})"
+
+
+log "The value with a forward slash in the attribute name is (#{node[:zach][:someval]})"
 
 
 rs_utils_marker :end
-
-log "This is the value for whatever (#{node[:whatever]})"
