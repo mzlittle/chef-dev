@@ -18,8 +18,8 @@ attribute "whatever",
   :required => "required",
   :recipes => ["zach::setup_zach"]
 
-# node[:rgeyer][:someval]
+# node[:zach][:someval]
 attribute "zach/someval",
   :display_name => "Grouped Input",
   :required => "required",
-  :recipes => ["zach::setup_rgeyer"]
+  :recipes => ["zach::setup_zach"]
