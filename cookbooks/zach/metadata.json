@@ -5,6 +5,18 @@
   "name": "zach",
   "maintainer_email": "none@none.com",
   "attributes": {
+    "zach/someval": {
+      "required": "required",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "type": "string",
+      "recipes": [
+        "zach::setup_rgeyer"
+      ],
+      "display_name": "Grouped Input"
+    },
     "whatever": {
       "required": "required",
       "calculated": false,
