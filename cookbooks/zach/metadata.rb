@@ -17,3 +17,9 @@ attribute "whatever",
   :description => "Nothing to see here",
   :required => "required",
   :recipes => ["zach::setup_zach"]
+
+# node[:rgeyer][:someval]
+attribute "zach/someval",
+  :display_name => "Grouped Input",
+  :required => "required",
+  :recipes => ["zach::setup_rgeyer"]
